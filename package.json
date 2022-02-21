@@ -1,0 +1,27 @@
+{
+  "name": "webrtc-star-signalling-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "rls": "git tag release-v$(date '+%Y-%m-%d_%H_%M_%S') && git push origin --tags",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sccgithub/webrtc-star-signalling-server.git"
+  },
+  "author": "scc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sccgithub/webrtc-star-signalling-server/issues"
+  },
+  "homepage": "https://github.com/sccgithub/webrtc-star-signalling-server#readme",
+  "dependencies": {
+    "libp2p-webrtc-star-signalling-server": "^0.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.18",
+    "typescript": "^4.5.5"
+  }
+}
