@@ -5,7 +5,7 @@ const startServer = async () => {
   server = await start({
     port: 8987,
     host: '0.0.0.0',
-    metrics: true,
+    metrics: false,
   });
 };
 
