@@ -15,4 +15,4 @@ RUN npm cache clear --force
 CMD pwd
 CMD node -v
 
-# CMD node ./dist/index.js
+CMD node ./dist/index.js
